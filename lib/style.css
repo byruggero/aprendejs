@@ -506,3 +506,33 @@ ul.checklist li {
 	margin-bottom: 50px;
 	border: 1px solid #e5e5e5;
 }
+
+/************************************************************************
+-) CHAT
+*************************************************************************/
+.chat-content{
+	height:390px;
+	overflow:auto;
+	margin-bottom:10px;
+}
+
+.chat-content ul{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+
+.chat-content ul li{
+	margin:0;
+	padding: 0;
+	font-size: 13px;
+	line-height: 18px;
+	margin-bottom:15px;
+}
+.chat-content .chat-author{
+	font-weight: bold;
+}
+.chat-content .chat-author img{
+	float:left;
+	margin:0 5px 5px 0;
+}
