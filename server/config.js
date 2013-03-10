@@ -1,9 +1,9 @@
-// Accounts.loginServiceConfiguration.remove({
-//   service: "twitter"
-// });
+Accounts.loginServiceConfiguration.remove({
+  service: "twitter"
+});
 
-// Accounts.loginServiceConfiguration.insert({
-//   service: "twitter",
-//   appId: 'SBdsNROyRbpQP2Bw6beUzw',
-//   secret: 'V0CnmFNQSVE1AeFaWUAuVOjclGmkiGyJII3PIYtDDo'
-// });
+Accounts.loginServiceConfiguration.insert({
+  service: "twitter",
+  consumerKey: 'SBdsNROyRbpQP2Bw6beUzw', //esto es para twitter
+  secret: 'V0CnmFNQSVE1AeFaWUAuVOjclGmkiGyJII3PIYtDDo'
+});
