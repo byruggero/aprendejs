@@ -6,4 +6,5 @@
 autopublish
 insecure
 preserve-inputs
-jquery
+accounts-ui
+accounts-twitter

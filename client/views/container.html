@@ -1,0 +1,160 @@
+<template name="container">
+    <div id="main_content" class="container_12">
+        <!-- Start Video -->
+        <div class="grid_8 featured">
+            <!-- <iframe src="http://player.vimeo.com/video/7449107" width="620" height="465" frameborder="0"></iframe>
+			-->
+            <iframe src="http://www.ustream.tv/embed/13561484" width="620" height="465" scrolling="no" frameborder="0" style="border: 0px none transparent;"></iframe>
+            <br />
+            <a href="http://www.ustream.tv/everywhere" style="padding: 2px 0px 4px; width: 400px; background: #ffffff; display: block; color: #000000; font-weight: normal; font-size: 10px; text-decoration: underline; text-align: center;" target="_blank">Live video from your Android device on Ustream</a>
+        </div>
+        <!-- Video END -->
+        <!-- Start Newsletter Signup -->
+        <div class="grid_4">
+            <!-- Start Background Image -->
+            <div class="signup">
+                <!-- Start Newsletter Box -->
+                <div class="newsletter">
+                    <!-- LA LISTA DE CORREOS DEBE APARECER EN ESTE LUGAR SOLO CUANDO NO ESTAMOS TRANSMITIENDO -->
+                    <!-- <h2>Suscríbete a nuestra lista de correos.</h2>
+				
+					<p>Prometemos no espamearte! Sólo te mandaremos información relevante al mundo de JavaScript, Ext JS y Desarrollo Web.</p>
+					
+					<div class="searchDiv">
+                        	<input type="text" class="inputbg"  placeholder="Tu Nombre" />
+                        	<input type="email" class="inputbg"  placeholder="Tu Email" />
+                        	<input type="submit" class="submit"  value="Regístrate!" />
+					</div>
+					
+					<div class="clear"></div>
+					
+					<div class="notice">
+						<img class='alignleft' src='images/contact.png' alt=''/>
+						<p>* Nunca compartiremos tu correo con otras personas.</p>
+					</div>
+					-->
+                    <!-- AQUI EL CHAT QUE APARECERÁ SOLO CUANDO ESTEMOS TRANSMITIENDO EN VIVO -->
+                    {{> chat}}
+                </div>
+                <!-- Newsletter Box END -->
+            </div>
+            <!-- Background Image END-->
+        </div>
+        <!-- Newsletter Signup END -->
+        <div class="clear"></div>
+        <!-- CLEAR -->
+        <!-- Start Box 1 -->
+        <div class="grid_4">
+            <div class="box">
+                <img class='alignleft_icon' src='images/icons/Edit.png' alt='' />
+                	<h3>Suscríbete a nuestra lista</h3>
+
+                <hr />
+                <p>Para estar enterado de nuestros siguientes programas, noticias y muchas sorpresas más que tendremos. Prometemos no espamearte ni compartir tu correo.</p>
+            </div>
+        </div>
+        <!-- Box 1 END -->
+        <!-- Start Box 2 -->
+        <div class="grid_4">
+            <div class="box">
+                <img class='alignleft_icon' src='images/icons/Mail_Read.png' alt='' />
+                	<h3>Sintonísanos</h3>
+
+                <hr />
+                <p>Todos los martes a las 3pm nos podrás encontrar en este lugar! Hablando sobre lo que nos apasiona y compartiendo lo que hemos aprendido de nuestros errores.</p>
+            </div>
+        </div>
+        <!-- Box 2 END -->
+        <!-- Start Box 3 -->
+        <div class="grid_4">
+            <div class="box">
+                <img class='alignleft_icon' src='images/icons/Box.png' alt='' />
+                	<h3>Síguenos en youtube</h3>
+
+                <hr />
+                <p>Suscríbete a nuestro canal en Youtube, para poder ver todos nuestros programas cuando tu quieras! Nuestro canal se actualiza cada semana que realizamos un nuevo episodio!</p>
+            </div>
+        </div>
+        <!-- Box 3 END -->
+        <div class="clear"></div>
+        <!-- CLEAR -->
+        <!-- Start Features 1 -->
+        <div class="grid_6">
+            <div class="feat margin-1">
+                	<h4>Sobre Nosotros</h4>
+
+                <hr />
+                <p>Somos aventureros y amantes de las <strong>nuevas tecnologías</strong>. Amamos aprender y compartir nuestras experiencias con la comunidad. ¿Porqué lo hacemos? Algún día estubimos en la posición donde nos habría gustado que alguien nos ayudara!</p>
+                <p
+                class="author">
+                    <img src="http://www.gravatar.com/avatar/7344c04fee0e5535e239b2a83623041a?s=80">
+                    <a href="http://twitter.com/crysfel">Crysfel Villa</a>se introdujo al mundo de la programación a finales de los 90's y su primer "Hola Mundo" fué con JavaScript! Sus principales liberías que maneja son Ext JS y Sencha Touch, pero siempre esta interesado en aprender nuevas herramientas.</p>
+                    <p
+                    class="author">
+                        <img src="http://www.gravatar.com/avatar/8e88e4c70a9b1e682549d614a9512422?s=80">
+                        <a href="http://twitter.com/manduks">Armando Gonzalez</a>Es Ingeniero en Computación egresado de la Universidad Tecnológica de la Mixteca. Se dedica a desarrollar aplicaciones web con tecnologías como Extjs, Cappuccino en el front-end y NodeJS, ROR o PHP en el back-end.</p>
+                        <!-- <ul class="checklist">
+				<li>Lorem ipsum dolor sit amet, condetetur sadipscing elitr</li>
+				<li>Magna aliquyam erat sed diam voluptua</li>
+				<li>Sed diam nonumy eirmod tempor invidunt ut labore</li>
+				<li>Consetetur sadipscing elitr sed diam noumy</li>
+				<li>Volupta diam sed aliquyam magna dolore</li>
+			</ul>
+			
+			<p>Lorem ipsum <a href="#">dolor sit amet</a>, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
+			
+			<p>Take a look at the screenshots to the right. Each Thumbnail has a different style.</p>
+			-->
+            </div>
+        </div>
+        <!-- Features 1 END -->
+        <!-- Start Features 2 -->
+        <div class="grid_6 feat margin-1">
+            	<h4>Programas anteriores</h4>
+
+            <hr />
+            <!-- ESTO DEBE SALIR DE YOUTUBE Y LOS LINKS DEBER IR HACIA YOUTUBE -->
+            <a id="example2" href="images/img-1.jpg">
+                <img alt="example1" src="images/thumbs/thumb-1.jpg" />
+            </a>
+            <a id="example5" href="images/img-2.jpg" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+                <img alt="example5" src="images/thumbs/thumb-2.jpg" />
+            </a>
+            <a id="example6" href="images/img-3.jpg" title="Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien. Vestibulum imperdiet porta ante ac ornare. Vivamus fringilla congue laoreet.">
+                <img alt="example6" src="images/thumbs/thumb-3.jpg" />
+            </a>
+            <a id="example4" href="images/img-4.jpg">
+                <img alt="example4" src="images/thumbs/thumb-4.jpg" />
+            </a>
+            <a id="example5" href="images/img-5.jpg">
+                <img alt="example5" src="images/thumbs/thumb-5.jpg" />
+            </a>
+            <a id="example6" href="images/img-6.jpg">
+                <img alt="example6" src="images/thumbs/thumb-6.jpg" />
+            </a>
+        </div>
+        <!-- Features 2 END -->
+        <div class="clear"></div>
+        <!-- CLEAR -->
+        <div class="grid_12">
+            <div class="callto">
+                <a href="#top"><span class="calltoaction"><img class='alignleft_action' src='images/Forward.png' alt=''/> No Olvides suscribirte a nuestro canal de Youtube!</span>
+                </a>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <!-- CLEAR -->
+        <div class="grid_12">
+            	<h1 class="heading">Te gusto? Compartelo con tus amigos...</h1>
+
+            <div class="fb">
+                <div id="fb-root"></div>
+                <script src="http://connect.facebook.net/en_US/all.js#appId=127329393972279&amp;xfbml=1"></script>
+                <fb:comments href="lista.wickedshot.de" num_posts="5" width="700"></fb:comments>
+            </div>
+            <div class="clear"></div>
+            <!-- CLEAR -->
+        </div>
+    </div>
+    <!-- Container 12 END-->
+</template>

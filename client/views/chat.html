@@ -1,0 +1,39 @@
+<template name="chat">
+    <div class="chat-content">
+        <ul>
+            <li class="chat-conversation">	<span class="chat-author"><img src="http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=30"> Pedro:</span>
+Hola, como están? Me parece muy bueno su programa que están haciendo, espero que algún día puedan hablar de jQuery!</li>
+            <li class="chat-conversation">	<span class="chat-author"><img src="http://www.gravatar.com/avatar/7344c04fee0e5535e239b2a83623041a?s=30"> Crysfel:</span>
+Si, el siguiente programa lo haremos ;)</li>
+            <li class="chat-conversation">	<span class="chat-author"><img src="http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=30"> Pedro:</span>
+Excelente! que bien, me gusta mucho jQuery</li>
+            <li class="chat-conversation">	<span class="chat-author"><img src="http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=30"> Pedro:</span>
+Hola, como están? Me parece muy bueno su programa que están haciendo, espero que algún día puedan hablar de jQuery!</li>
+            <li class="chat-conversation">	<span class="chat-author"><img src="http://www.gravatar.com/avatar/7344c04fee0e5535e239b2a83623041a?s=30"> Crysfel:</span>
+Si, el siguiente programa lo haremos ;)</li>
+            <li class="chat-conversation">	<span class="chat-author"><img src="http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=30"> Pedro:</span>
+Excelente! que bien, me gusta mucho jQuery</li>
+            <li class="chat-conversation">	<span class="chat-author"><img src="http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=30"> Pedro:</span>
+Hola, como están? Me parece muy bueno su programa que están haciendo, espero que algún día puedan hablar de jQuery!</li>
+            <li class="chat-conversation">	<span class="chat-author"><img src="http://www.gravatar.com/avatar/7344c04fee0e5535e239b2a83623041a?s=30"> Crysfel:</span>
+Si, el siguiente programa lo haremos ;)</li>
+            <li class="chat-conversation">	<span class="chat-author"><img src="http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=30"> Pedro:</span>
+Excelente! que bien, me gusta mucho jQuery</li>
+            <li class="chat-conversation">	<span class="chat-author"><img src="http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=30"> Pedro:</span>
+Hola, como están? Me parece muy bueno su programa que están haciendo, espero que algún día puedan hablar de jQuery!</li>
+            <li class="chat-conversation">	<span class="chat-author"><img src="http://www.gravatar.com/avatar/7344c04fee0e5535e239b2a83623041a?s=30"> Crysfel:</span>
+Si, el siguiente programa lo haremos ;)</li>
+            <li class="chat-conversation">	<span class="chat-author"><img src="http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=30"> Pedro:</span>
+Excelente! que bien, me gusta mucho jQuery</li>
+        </ul>
+    </div>
+    <div class="searchDiv">
+    	{{#if currentUser}}
+    		<input type="text" class="inputbg" placeholder="Únete a la conversación!" />
+            {{loginButtons }}
+    	{{else}}
+			{{! <input type="button" class="inputbg" value="Login con twitter" id="login_btn"/> }}
+			 {{loginButtons }}
+    	{{/if}}        
+    </div>
+</template>
