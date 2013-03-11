@@ -1,12 +1,18 @@
 // Accounts.onCreateUser(function(options,user){
-// 	var accessToken = user.services.twitter.accessToken,
-// 		result,profile;
-// 	// result = Meteor.http.get("https://graph.facebook.com/me", {
+// 	console.log(options);
+// 	// var accessToken = user.services.twitter.accessToken,
+// 	// 	result,profile;
+// 	// 	console.log('----options------');
+// 	// 	console.log(user);
+// 	// 	console.log('----user------');
+// 	// result = Meteor.http.get("https://api.twitter.com/1/account/verify_credentials.json", {
 // 	// 	params: {
-// 	// 		access_token: user.services.facebook.accessToken,
-// 	// 		fields: 'picture'
+// 	// 		accessToken: 'SBdsNROyRbpQP2Bw6beUzw',
+//  //        	accessTokenSecret: 'V0CnmFNQSVE1AeFaWUAuVOjclGmkiGyJII3PIYtDDo'
 // 	// 	}
 // 	// });
+// 	// console.log(result);
+// 	// console.log('----result------');
 
 // 	// if (result.error) {
 // 	// 	throw result.error;
