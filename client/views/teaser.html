@@ -9,10 +9,16 @@
     <div class="container_12 ">
         <!-- Start Centered Text -->
         <div class="grid_12 middle">
-            <!-- Heading -->
-            	<h1 class="heading">El título del tema sobre el que estamos hablando</h1>
+            {{#if streaming}}
+                <!-- Heading -->
+                <h1 class="heading">El título del tema sobre el que estamos hablando</h1>
             <!-- Subheading -->
-            <!-- Este mensaje debería salir solo cuando transmitimos en vivo! -->	<span class="subhead">Ahora mismo estamos transmitiendo en vivo! Participa con nosotros mediante twitter o el Chat.</span>
+            <!-- Este mensaje debería salir solo cuando transmitimos en vivo! -->   
+            <span class="subhead">Ahora mismo estamos transmitiendo en vivo! Participa con nosotros mediante twitter o el Chat.</span>
+            {{else}}
+                <h1 class="heading">Aqui aprenderas de todo!!</h1>
+            {{/if}}
+            
 
         </div>
         <!-- Centered Text END -->

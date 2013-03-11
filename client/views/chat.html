@@ -12,7 +12,11 @@
         {{/each}}
         </ul>
     </div>
-    <div class="searchDiv">{{#if currentUser}}
-        <input type="text" class="inputbg" placeholder="Únete a la conversación!" id="chat_textfield" />{{else}}
-        <input type="button" class="inputbg" value="Login con twitter" id="login_btn" />{{/if}}</div>
+    <div class="searchDiv">
+        {{#if currentUser}}
+            <input type="text" class="inputbg" placeholder="Únete a la conversación!" id="chat_textfield" />
+        {{else}}
+            <input type="button" class="inputbg" value="Login con twitter" id="login_btn" />
+        {{/if}}
+    </div>
 </template>

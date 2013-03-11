@@ -15,26 +15,13 @@
             <div class="signup">
                 <!-- Start Newsletter Box -->
                 <div class="newsletter">
-                    <!-- LA LISTA DE CORREOS DEBE APARECER EN ESTE LUGAR SOLO CUANDO NO ESTAMOS TRANSMITIENDO -->
-                    <!-- <h2>Suscríbete a nuestra lista de correos.</h2>
-				
-					<p>Prometemos no espamearte! Sólo te mandaremos información relevante al mundo de JavaScript, Ext JS y Desarrollo Web.</p>
-					
-					<div class="searchDiv">
-                        	<input type="text" class="inputbg"  placeholder="Tu Nombre" />
-                        	<input type="email" class="inputbg"  placeholder="Tu Email" />
-                        	<input type="submit" class="submit"  value="Regístrate!" />
-					</div>
-					
-					<div class="clear"></div>
-					
-					<div class="notice">
-						<img class='alignleft' src='images/contact.png' alt=''/>
-						<p>* Nunca compartiremos tu correo con otras personas.</p>
-					</div>
-					-->
-                    <!-- AQUI EL CHAT QUE APARECERÁ SOLO CUANDO ESTEMOS TRANSMITIENDO EN VIVO -->
-                    {{> chat}}
+                    {{#if streaming}}
+                        <!-- AQUI EL CHAT QUE APARECERÁ SOLO CUANDO ESTEMOS TRANSMITIENDO EN VIVO -->
+                        {{> chat}}                        
+                    {{else}}
+                        <!-- LA LISTA DE CORREOS DEBE APARECER EN ESTE LUGAR SOLO CUANDO NO ESTAMOS TRANSMITIENDO -->
+                        {{> mail}}
+                    {{/if}}                   
                 </div>
                 <!-- Newsletter Box END -->
             </div>
