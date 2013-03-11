@@ -36,3 +36,8 @@
 	-moz-opacity: 0;
 	filter:alpha(opacity=0);
 }
+
+#editor{
+	background-color: #356478;
+	height:500px;
+}
